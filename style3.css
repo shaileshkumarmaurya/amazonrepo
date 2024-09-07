@@ -1,0 +1,70 @@
+/* #box1{
+     height:100px;
+     width:200px;
+     background-color: green;
+     font-size: 10px;
+     
+}
+#box2{
+     height: 50px;
+     /* width: 50px; 
+     width: 30%;
+     background-color: yellow;
+     margin-left:10% ; 
+      font-size: 2em;  
+     width:5rem ;
+     height: 1vh;
+} */
+ /* div{
+     height: 100px;
+     width: 100px;
+     background-color: aqua;
+     border: 2px solid black;
+     display: inline-block;
+    
+
+ } */
+ /*
+ #box1{
+      position:static ; the (left,right,top,bottom )would not work for static position;  we cannot set the z-index for static position
+     
+ }
+ #box2{
+     position: relative;  the (left,right,top,bottom )would  work for relative position; z-index will work 
+    
+     top: 20px;
+     left: 10px;
+     z-index:1 ;
+ }
+ #box3{
+      position: absolute; it  (left,right,top,bottom )will work to its closest (ancestor) tag(body,div); 
+     position: sticky; it will be fixed on scrolling when we see the box
+     top: 500px;
+   left: 20px;
+   
+
+ }
+ #box4{
+      position: fixed; position relative to the browser 
+     top: 50px;
+     z-index: 2;
+ }*/
+ 
+ /* #box1{
+     background-image: url("cat.photo.jpg");
+     background-size:cover;
+
+ }
+  */
+  div{
+     height: 100px;
+     width: 100px;
+     background-image:url("cat.photo.jpg") ;
+     background-size: cover;
+     color: white;
+     position: fixed;
+     right: 0px;
+    top: 50px;
+
+     
+  }
